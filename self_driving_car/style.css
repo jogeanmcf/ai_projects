@@ -1,0 +1,38 @@
+#carCanvas{
+    background-color: lightgray;
+    
+}
+
+#verticalButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#networkCanvas{
+    background-color: black;
+    
+}
+
+body{
+    margin: 0;
+    background: darkgray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
